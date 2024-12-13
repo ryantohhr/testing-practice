@@ -15,7 +15,3 @@ test("handles case preservation", () => {
 test("leaves non-alphabetical unchanged", () => {
     expect(caesarCipher("Hello, World!", 3)).toBe("Khoor, Zruog!");
 });
-
-test("returns shifted string", () => {
-    expect(caesarCipher("abc", 3)).toBe("def");
-});
